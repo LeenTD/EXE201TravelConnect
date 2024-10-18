@@ -14,7 +14,7 @@ function Footer() {
           <div className="nicdark_container nicdark_clearfix">
             <div className="grid grid_12 nicdark_text_align_center">
               <div className="nicdark_section">
-                <a href="#"><img alt width={500} className='' style={{ paddingLeft: '100px' }} src="/logo.png" /></a>
+                <a href="index.html"><img alt width={500} className='' style={{ paddingLeft: '100px' }} src="/logo.png" /></a>
               </div>
               <div className="nicdark_section nicdark_height_20" />
               <div className="nicdark_display_inline_block">
@@ -43,10 +43,10 @@ function Footer() {
                     <a href="index.html">Trang chủ</a>
                   </li>
                   <li>
-                    <a href="about-us.html">Giới thiệu</a>
+                    <a href="index.html">Giới thiệu</a>
                   </li>
                   <li>
-                    <a href="contact-1.html">Liên hệ</a>
+                    <a href="index.html">Liên hệ</a>
                   </li>
                 </ul>
               </div>

@@ -41,10 +41,10 @@ function CourseCard({ course }) {
                     <div className="nicdark_section nicdark_position_relative">
                         <img alt="course" className="nicdark_section" height={230} style={{ objectFit: 'cover' }} src={course.imageUrl} />
                         <div className="nicdark_bg_greydark_alpha_gradient_2 nicdark_position_absolute nicdark_left_0 nicdark_height_100_percentage nicdark_width_100_percentage nicdark_padding_20 nicdark_box_sizing_border_box">
-                            <a className="nicdark_tooltip_jquery nicdark_position_absolute nicdark_right_0" title="Add To Favorites" href="account.html#tabs-3">
+                            <a className="nicdark_tooltip_jquery nicdark_position_absolute nicdark_right_0" title="Add To Favorites" href="index.html">
                                 <img alt="heart icon" className="nicdark_margin_right_60" width={25} src="img/icons/icon-heart-white.svg" />
                             </a>
-                            <a className="nicdark_tooltip_jquery nicdark_position_absolute nicdark_right_0" title="Add To Compare" href="compare.html">
+                            <a className="nicdark_tooltip_jquery nicdark_position_absolute nicdark_right_0" title="Add To Compare" href="index.html">
                                 <img alt="compare icon" className="nicdark_margin_right_20 nicdark_right_0" width={25} src="img/icons/icon-compare-white.svg" />
                             </a>
                             <div className="nicdark_position_absolute nicdark_bottom_20">

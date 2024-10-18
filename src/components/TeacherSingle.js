@@ -30,21 +30,21 @@ function TeacherSingle() {
         {/*start nicdark_container*/}
         <div className="nicdark_container nicdark_clearfix">
           <div className="grid grid_12">
-            <a href="#">Trang chủ</a>
+            <a href="index.html">Trang chủ</a>
             <img
               alt
               className="nicdark_margin_left_10 nicdark_margin_right_10"
               width={10}
               src="img/icons/icon-next-grey.svg"
             />
-            <a href="#">Gia sư</a>
+            <a href="index.html">Hướng dẫn viên</a>
             <img
               alt
               className="nicdark_margin_left_10 nicdark_margin_right_10"
               width={10}
               src="img/icons/icon-next-grey.svg"
             />
-            <a href="#">{teacher.fullName}</a>
+            <a href="index.html">{teacher.fullName}</a>
           </div>
         </div>
         {/*end container*/}
@@ -423,9 +423,8 @@ function TeacherSingle() {
                               alt=""
                               className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage"
                               width={40}
-                              src={`img/avatar/avatar-chef-${
-                                index % 2 === 0 ? "1" : "2"
-                              }.jpg`}
+                              src={`img/avatar/avatar-chef-${index % 2 === 0 ? "1" : "2"
+                                }.jpg`}
                             />
                             <p className="nicdark_display_table_cell nicdark_vertical_align_middle">
                               <span className="nicdark_color_greydark nicdark_first_font nicdark_margin_right_20">

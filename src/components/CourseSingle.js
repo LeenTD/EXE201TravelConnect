@@ -14,9 +14,9 @@ function CourseSingle() {
                     <div className="grid grid_12">
                         <a href="index.html">Home</a>
                         <img alt className="nicdark_margin_left_10 nicdark_margin_right_10" width={10} src="img/icons/icon-next-grey.svg" />
-                        <a href="#">Courses</a>
+                        <a href="index.html">Chuyến đi</a>
                         <img alt className="nicdark_margin_left_10 nicdark_margin_right_10" width={10} src="img/icons/icon-next-grey.svg" />
-                        <a href="#">{course.title}</a>
+                        <a href="index.html">{course.title}</a>
                     </div>
                 </div>
                 {/*end container*/}
@@ -388,7 +388,7 @@ function CourseSingle() {
                                     </div>
                                     <div className="nicdark_section">
                                         <div className="nicdark_width_100_percentage nicdark_padding_10 nicdark_box_sizing_border_box nicdark_float_left">
-                                            <a className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="contact-1.html">SEND NOW</a>
+                                            <a className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="index.html">SEND NOW</a>
                                         </div>
                                     </div>
                                 </div>
