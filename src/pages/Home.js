@@ -89,7 +89,7 @@ function Home() {
 
 
 
-      <div className="nicdark_section nicdark_background_size_cover nicdark_background_position_center_top" style={{ backgroundImage: 'url(img/parallax/3.jpg)' }}>
+      <div className="nicdark_section nicdark_background_size_cover nicdark_background_position_center_top" style={{ backgroundImage: 'url(https://r2.nucuoimekong.com/wp-content/uploads/dia-diem-du-lich-viet-nam-avt.jpg)' }}>
         <div className="nicdark_section nicdark_bg_greydark_alpha_gradient_5">
           {/*start nicdark_container*/}
           <div className="nicdark_container nicdark_clearfix">
@@ -146,7 +146,7 @@ function Home() {
 
 
 
-      <div className="nicdark_section nicdark_background_size_cover nicdark_background_position_center_top" style={{ backgroundImage: 'url(img/parallax/img4.jpg)' }}>
+      <div className="nicdark_section nicdark_background_size_cover nicdark_background_position_center_top" style={{ backgroundImage: 'url(https://static-images.vnncdn.net/files/publish/2023/8/15/key-facts-about-vietnam-featured-photo-min-1569.jpg' }}>
         <div className="nicdark_section nicdark_bg_greydark_alpha_6">
           <div className="nicdark_container nicdark_clearfix">
             <div className="nicdark_section nicdark_height_80" />

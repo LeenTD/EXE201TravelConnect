@@ -1,5 +1,7 @@
 import React, { memo } from 'react'
 
+import Mylogo from '../assets/img/logos/logoTravelconect.png'
+
 function Footer() {
   return (
 
@@ -8,13 +10,13 @@ function Footer() {
 
 
       <div>
-        <div className="nicdark_section bg-secondary">
+        <div className="nicdark_section">
           <div className="nicdark_section nicdark_height_50" />
           {/*start nicdark_container*/}
           <div className="nicdark_container nicdark_clearfix">
             <div className="grid grid_12 nicdark_text_align_center">
               <div className="nicdark_section">
-                <a href="index.html"><img alt="" width={500} className='' style={{ paddingLeft: '100px' }} src="/logo.png" /></a>
+                <a href="index.html"><img alt="" width={500} className='' style={{ paddingLeft: '100px' }} src={Mylogo} /></a>
               </div>
               <div className="nicdark_section nicdark_height_20" />
               <div className="nicdark_display_inline_block">

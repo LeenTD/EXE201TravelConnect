@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import RoutePath from '../config/RoutePath';
 import { memo } from 'react';
+import Mylogo from '../assets/img/logos/logoTravelconect.png'
 
 function Header() {
   const navigate = useNavigate(); // Khởi tạo useNavigate
@@ -17,7 +18,7 @@ function Header() {
   return (
     <>
       <div className="nicdark_section">
-        <div className="nicdark_section nicdark_bg_blue">
+        <div className="nicdark_section nicdark_bg_green">
           <div className="nicdark_container nicdark_clearfix">
             <div className="grid grid_6 nicdark_padding_botttom_10 nicdark_padding_top_10 nicdark_text_align_center_responsive">
               <div className="nicdark_navigation_top_header_3">
@@ -56,7 +57,7 @@ function Header() {
                         <span className="nicdark_color_white">{JSON.parse(currentUser).username}</span>
                       </li>
                       <li>
-                        <button className="nicdark_color_white" onClick={handleLogout}>ĐĂNG XUẤT</button>
+                        <button className="nicdark_color_white bg-black" onClick={handleLogout}>ĐĂNG XUẤT</button>
                       </li>
                     </>
                   ) : (
@@ -83,7 +84,7 @@ function Header() {
           <div className="nicdark_container nicdark_clearfix nicdark_position_relative">
             <div className="grid grid_12 nicdark_display_none_all_responsive">
               <div className="nicdark_section nicdark_height_10" />
-              <Link to={RoutePath.HOME}><img alt="img" className="nicdark_position_absolute nicdark_left_15 nicdark_top_20" width={230} src="/logo.png" /></Link>
+              <Link to={RoutePath.HOME}><img alt="img" className="nicdark_position_absolute nicdark_left_15 nicdark_top_20" width={230} src={Mylogo} /></Link>
               <div className="nicdark_float_right nicdark_width_100 nicdark_position_relative nicdark_height_25 nicdark_display_none_all_responsive">
                 <Link to={RoutePath.CART}>
                   <img alt="img" className="nicdark_opacity_05_hover nicdark_transition_all_08_ease nicdark_position_absolute nicdark_top_3_negative nicdark_left_0 nicdark_margin_left_20" width={25} src="img/icons/icon-cart-grey.svg" />
