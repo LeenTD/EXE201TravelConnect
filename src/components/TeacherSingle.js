@@ -72,18 +72,10 @@ function TeacherSingle() {
                   <strong className="nicdark_color_white nicdark_font_size_40 nicdark_first_font">
                     {teacher.fullName}
                   </strong>
-                  {/* <div className="nicdark_display_inline_block nicdark_margin_left_20">
-                                        <img alt width={20} className="nicdark_margin_right_10" src="img/icons/icon-twitter-white.svg" />
-                                        <img alt width={20} className="nicdark_margin_right_10" src="img/icons/icon-pinterest-white.svg" />
-                                        <img alt width={20} className="nicdark_margin_right_10" src="img/icons/icon-linkedin-white.svg" />
-                                        <img alt width={20} className="nicdark_margin_right_10" src="img/icons/icon-google-white.svg" />
-                                        <img alt width={20} className="nicdark_margin_right_10" src="img/icons/icon-instagram-white.svg" />
-                                    </div> */}
                   <div className="nicdark_section nicdark_height_5" />
-                  {/* <h3 className="nicdark_color_white">Teacher</h3> */}
                   <div className="nicdark_section nicdark_height_30" />
-                  {/* <a className="nicdark_display_inline_block nicdark_color_white nicdark_border_1_solid_white nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 nicdark_margin_right_20 nicdark_transition_all_08_ease  " href="#">FOLLOW ME</a>
-                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_border_1_solid_white nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 nicdark_transition_all_08_ease  " href="#">MESSAGE ME</a> */}
+                  {/* <a className="nicdark_display_inline_block nicdark_color_white nicdark_border_1_solid_white nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 nicdark_margin_right_20 nicdark_transition_all_08_ease  " href="index.html">FOLLOW ME</a>
+                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_border_1_solid_white nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 nicdark_transition_all_08_ease  " href="index.html">MESSAGE ME</a> */}
                 </div>
               </div>
               {/*START responsive*/}
@@ -138,13 +130,13 @@ function TeacherSingle() {
                 <div className="nicdark_section nicdark_height_20" />
                 <a
                   className="nicdark_display_inline_block nicdark_color_white nicdark_border_1_solid_white nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_margin_right_20 nicdark_font_size_13 nicdark_transition_all_08_ease nicdark_border_1_solid_green_hover nicdark_bg_green_hover"
-                  href="#"
+                  href="index.html"
                 >
                   FOLLOW ME
                 </a>
                 <a
                   className="nicdark_display_inline_block nicdark_color_white nicdark_border_1_solid_white nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13 nicdark_transition_all_08_ease nicdark_border_1_solid_green_hover nicdark_bg_green_hover"
-                  href="#"
+                  href="index.html"
                 >
                   MESSAGE ME
                 </a>
@@ -566,7 +558,7 @@ function TeacherSingle() {
                     <div className="nicdark_width_100_percentage nicdark_padding_10 nicdark_box_sizing_border_box nicdark_float_left">
                       <a
                         className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 "
-                        href="#"
+                        href="index.html"
                       >
                         SEND NOW
                       </a>

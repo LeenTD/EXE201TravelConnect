@@ -36,7 +36,7 @@ function Services() {
               <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
                 euismod orci ut et lobortis.</p>
               <div className="nicdark_section nicdark_height_20" />
-              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
             </div>
             <div className="grid grid_3 ">
               <img alt="img" width={50} src="img/icons/icon-graduation-color.svg" />
@@ -46,7 +46,7 @@ function Services() {
               <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
                 euismod orci ut et lobortis.</p>
               <div className="nicdark_section nicdark_height_20" />
-              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
             </div>
             <div className="grid grid_3 ">
               <img alt="img" width={50} src="img/icons/icon-graph-color.svg" />
@@ -56,7 +56,7 @@ function Services() {
               <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
                 euismod orci ut et lobortis.</p>
               <div className="nicdark_section nicdark_height_20" />
-              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
             </div>
             <div className="grid grid_3 ">
               <img alt="img" width={50} src="img/icons/icon-support-color.svg" />
@@ -66,7 +66,7 @@ function Services() {
               <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque
                 euismod orci ut et lobortis.</p>
               <div className="nicdark_section nicdark_height_20" />
-              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+              <Link className="nicdark_display_inline_block nicdark_color_grey nicdark_border_1_solid_grey nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ function Services() {
                       </table>
                       <div className="nicdark_section nicdark_height_20" />
                       <div className="nicdark_width_100_percentage  nicdark_box_sizing_border_box nicdark_float_left">
-                        <Link className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_greydark nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="#">REQUEST NOW</Link>
+                        <Link className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_greydark nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="index.html">REQUEST NOW</Link>
                       </div>
                     </div>
                   </div>
@@ -214,7 +214,7 @@ function Services() {
                       </table>
                       <div className="nicdark_section nicdark_height_20" />
                       <div className="nicdark_width_100_percentage  nicdark_box_sizing_border_box nicdark_float_left">
-                        <Link className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_greydark nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="#">REQUEST NOW</Link>
+                        <Link className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_greydark nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="index.html">REQUEST NOW</Link>
                       </div>
                     </div>
                   </div>
@@ -284,7 +284,7 @@ function Services() {
                       </table>
                       <div className="nicdark_section nicdark_height_20" />
                       <div className="nicdark_width_100_percentage  nicdark_box_sizing_border_box nicdark_float_left">
-                        <Link className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_greydark nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="#">REQUEST NOW</Link>
+                        <Link className="nicdark_display_inline_block nicdark_text_align_center nicdark_box_sizing_border_box nicdark_width_100_percentage nicdark_color_white nicdark_bg_greydark nicdark_first_font nicdark_padding_10_20 nicdark_border_radius_3 " href="index.html">REQUEST NOW</Link>
                       </div>
                     </div>
                   </div>
@@ -334,7 +334,7 @@ function Services() {
                   <p className>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
                     magna at porttitor vehicula nullam augue.</p>
                   <div className="nicdark_section nicdark_height_20" />
-                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
                 </div>
               </div>
               {/*END services*/}
@@ -349,7 +349,7 @@ function Services() {
                   <p className>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
                     magna at porttitor vehicula nullam augue.</p>
                   <div className="nicdark_section nicdark_height_20" />
-                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
                 </div>
               </div>
               {/*END services*/}
@@ -364,7 +364,7 @@ function Services() {
                   <p className>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
                     magna at porttitor vehicula nullam augue.</p>
                   <div className="nicdark_section nicdark_height_20" />
-                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
                 </div>
               </div>
               {/*END services*/}
@@ -380,7 +380,7 @@ function Services() {
                   <p className>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
                     magna at porttitor vehicula nullam augue.</p>
                   <div className="nicdark_section nicdark_height_20" />
-                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
                 </div>
               </div>
               {/*END services*/}
@@ -395,7 +395,7 @@ function Services() {
                   <p className>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
                     magna at porttitor vehicula nullam augue.</p>
                   <div className="nicdark_section nicdark_height_20" />
-                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
                 </div>
               </div>
               {/*END services*/}
@@ -410,7 +410,7 @@ function Services() {
                   <p className>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas
                     magna at porttitor vehicula nullam augue.</p>
                   <div className="nicdark_section nicdark_height_20" />
-                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">READ MORE</Link>
+                  <Link className="nicdark_display_inline_block nicdark_color_white nicdark_first_font nicdark_bg_blue nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">READ MORE</Link>
                 </div>
               </div>
               {/*END services*/}

@@ -13,9 +13,9 @@ function CourseSingle() {
                 <div className="nicdark_container nicdark_clearfix">
                     <div className="grid grid_12">
                         <a href="index.html">Home</a>
-                        <img alt className="nicdark_margin_left_10 nicdark_margin_right_10" width={10} src="img/icons/icon-next-grey.svg" />
+                        <img alt="img" className="nicdark_margin_left_10 nicdark_margin_right_10" width={10} src="img/icons/icon-next-grey.svg" />
                         <a href="index.html">Chuyến đi</a>
-                        <img alt className="nicdark_margin_left_10 nicdark_margin_right_10" width={10} src="img/icons/icon-next-grey.svg" />
+                        <img alt="img" className="nicdark_margin_left_10 nicdark_margin_right_10" width={10} src="img/icons/icon-next-grey.svg" />
                         <a href="index.html">{course.title}</a>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ function CourseSingle() {
 
                             <div className="nicdark_section nicdark_height_20" />
                             <div className="nicdark_section nicdark_position_relative">
-                                <img alt className="nicdark_section" src="img/courses/img3.jpg" />
+                                <img alt="img" className="nicdark_section" src="img/courses/img3.jpg" />
                                 <div className="nicdark_bg_greydark_alpha_gradient nicdark_position_absolute nicdark_left_0 nicdark_height_100_percentage nicdark_width_100_percentage nicdark_padding_20 nicdark_box_sizing_border_box">
 
                                 </div>
@@ -77,7 +77,7 @@ function CourseSingle() {
                                                 <div className="nicdark_width_15_percentage nicdark_width_100_percentage_responsive nicdark_float_left">
                                                     <table>
                                                         <tbody><tr>
-                                                            <td><img alt width={20} src="img/icons/icon-file-green.svg" /></td>
+                                                            <td><img alt="" width={20} src="img/icons/icon-file-green.svg" /></td>
                                                             <td><span className="nicdark_color_grey nicdark_first_font nicdark_font_size_12 nicdark_margin_left_10">LESSON</span>
                                                             </td>
                                                         </tr>
@@ -88,14 +88,14 @@ function CourseSingle() {
                                                         program of the course</h4>
                                                 </div>
                                                 <div className="nicdark_width_10_percentage nicdark_width_100_percentage_responsive nicdark_float_left nicdark_text_align_right nicdark_text_align_left_responsive nicdark_margin_top_5_responsive">
-                                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">PREVIEW</a>
+                                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">PREVIEW</a>
                                                 </div>
                                             </div>
                                             <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_15 nicdark_box_sizing_border_box">
                                                 <div className="nicdark_width_15_percentage nicdark_width_100_percentage_responsive nicdark_float_left">
                                                     <table>
                                                         <tbody><tr>
-                                                            <td><img alt width={20} src="img/icons/icon-file-green.svg" /></td>
+                                                            <td><img alt="" width={20} src="img/icons/icon-file-green.svg" /></td>
                                                             <td><span className="nicdark_color_grey nicdark_first_font nicdark_font_size_12 nicdark_margin_left_10">PDF</span>
                                                             </td>
                                                         </tr>
@@ -106,14 +106,14 @@ function CourseSingle() {
                                                         slides</h4>
                                                 </div>
                                                 <div className="nicdark_width_10_percentage nicdark_width_100_percentage_responsive nicdark_float_left nicdark_text_align_right nicdark_text_align_left_responsive nicdark_margin_top_5_responsive">
-                                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">PREVIEW</a>
+                                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">PREVIEW</a>
                                                 </div>
                                             </div>
                                             <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_15 nicdark_box_sizing_border_box ">
                                                 <div className="nicdark_width_15_percentage nicdark_width_100_percentage_responsive nicdark_float_left">
                                                     <table>
                                                         <tbody><tr>
-                                                            <td><img alt width={20} src="img/icons/icon-play-green.svg" /></td>
+                                                            <td><img alt="" width={20} src="img/icons/icon-play-green.svg" /></td>
                                                             <td><span className="nicdark_color_grey nicdark_first_font nicdark_font_size_12 nicdark_margin_left_10">VIDEO</span>
                                                             </td>
                                                         </tr>
@@ -123,7 +123,7 @@ function CourseSingle() {
                                                     <h4 className="nicdark_padding_5 nicdark_second_font">Final Exams</h4>
                                                 </div>
                                                 <div className="nicdark_width_10_percentage nicdark_width_100_percentage_responsive nicdark_float_left nicdark_text_align_right nicdark_text_align_left_responsive nicdark_margin_top_5_responsive">
-                                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="#">PREVIEW</a>
+                                                    <a className="nicdark_display_inline_block nicdark_color_white nicdark_bg_violet nicdark_first_font nicdark_padding_8 nicdark_border_radius_3 nicdark_font_size_13" href="index.html">PREVIEW</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,7 +139,7 @@ function CourseSingle() {
                                                     <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_40_20 nicdark_box_sizing_border_box">
                                                         <div className="nicdark_display_table nicdark_float_left">
                                                             <div className="nicdark_display_table_cell nicdark_vertical_align_middle">
-                                                                <img alt className="nicdark_width_50_all_iphone nicdark_margin_right_20 nicdark_border_radius_100_percentage " width={100} src="img/avatar/avatar-chef-3.jpg" />
+                                                                <img alt="" className="nicdark_width_50_all_iphone nicdark_margin_right_20 nicdark_border_radius_100_percentage " width={100} src="img/avatar/avatar-chef-3.jpg" />
                                                             </div>
                                                             <div className="nicdark_display_table_cell nicdark_vertical_align_middle">
                                                                 <h3 className><strong>{teacher.fullName}</strong></h3>
@@ -171,11 +171,11 @@ function CourseSingle() {
                                                         <strong>5</strong></h1>
                                                     <div className="nicdark_section nicdark_height_20" />
                                                     <div className="nicdark_section ">
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
                                                     </div>
                                                     <p>3 Ratings</p>
                                                 </div>
@@ -255,16 +255,16 @@ function CourseSingle() {
                                             {/*START comment preview*/}
                                             <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_40_20 nicdark_box_sizing_border_box">
                                                 <div className="nicdark_display_table nicdark_float_left">
-                                                    <img alt className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage" width={40} src="img/avatar/avatar-chef-1.jpg" />
+                                                    <img alt="" className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage" width={40} src="img/avatar/avatar-chef-1.jpg" />
                                                     <p className="  nicdark_display_table_cell nicdark_vertical_align_middle ">
                                                         <span className="nicdark_color_greydark nicdark_first_font nicdark_margin_right_20"><strong>John
                                                             Doe</strong></span></p>
                                                     <div className="nicdark_display_table_cell nicdark_vertical_align_middle ">
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
                                                     </div>
                                                 </div>
                                                 <div className="nicdark_section nicdark_height_20" />
@@ -279,16 +279,16 @@ function CourseSingle() {
                                             {/*START comment preview*/}
                                             <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_40_20 nicdark_box_sizing_border_box">
                                                 <div className="nicdark_display_table nicdark_float_left">
-                                                    <img alt className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage" width={40} src="img/avatar/avatar-chef-2.jpg" />
+                                                    <img alt="" className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage" width={40} src="img/avatar/avatar-chef-2.jpg" />
                                                     <p className="  nicdark_display_table_cell nicdark_vertical_align_middle ">
                                                         <span className="nicdark_color_greydark nicdark_first_font nicdark_margin_right_20"><strong>Nick
                                                             Hope</strong></span></p>
                                                     <div className="nicdark_display_table_cell nicdark_vertical_align_middle ">
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
                                                     </div>
                                                 </div>
                                                 <div className="nicdark_section nicdark_height_20" />
@@ -303,16 +303,16 @@ function CourseSingle() {
                                             {/*START comment preview*/}
                                             <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_40_20 nicdark_box_sizing_border_box">
                                                 <div className="nicdark_display_table nicdark_float_left">
-                                                    <img alt className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage" width={40} src="img/avatar/avatar-chef-3.jpg" />
+                                                    <img alt="" className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage" width={40} src="img/avatar/avatar-chef-3.jpg" />
                                                     <p className="  nicdark_display_table_cell nicdark_vertical_align_middle ">
                                                         <span className="nicdark_color_greydark nicdark_first_font nicdark_margin_right_20"><strong>Jane
                                                             Dark</strong></span></p>
                                                     <div className="nicdark_display_table_cell nicdark_vertical_align_middle ">
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className width={15} src="img/icons/icon-star-full-yellow.svg" />
-                                                        <img alt className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className width={15} src="img/icons/icon-star-full-yellow.svg" />
+                                                        <img alt="" className="nicdark_margin_right_10" width={15} src="img/icons/icon-star-full-yellow.svg" />
                                                     </div>
                                                 </div>
                                                 <div className="nicdark_section nicdark_height_20" />
@@ -352,13 +352,13 @@ function CourseSingle() {
                             <table className="nicdark_section">
                                 <tbody>
                                     <tr className="nicdark_border_bottom_2_solid_grey">
-                                        <td className="nicdark_padding_20 "><img alt className width={40} src="img/icons/icon-clock-grey.svg" /></td>
+                                        <td className="nicdark_padding_20 "><img alt="" className width={40} src="img/icons/icon-clock-grey.svg" /></td>
                                         <td className="nicdark_padding_20 ">
                                             <h4 className=" nicdark_text_align_right">Duration: {course.numberTeachOfWeek * course.oneHourTeaching} Hours</h4>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td className="nicdark_padding_20 "><img alt className width={40} src="img/icons/icon-card-grey.svg" /></td>
+                                        <td className="nicdark_padding_20 "><img alt="" className width={40} src="img/icons/icon-card-grey.svg" /></td>
                                         <td className="nicdark_padding_20 ">
                                             <h4 className=" nicdark_text_align_right">Price: {course.totalMoneyMonthTeaching} USD/Month</h4>
                                         </td>

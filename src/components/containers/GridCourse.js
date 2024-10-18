@@ -56,7 +56,7 @@ function GridCourse() {
                             <div className="nicdark_section nicdark_height_20" />
                             <div className="nicdark_width_50_percentage nicdark_float_left">
                                 <div className="nicdark_section nicdark_box_sizing_border_box nicdark_float_left nicdark_position_relative nicdark_padding_right_20">
-                                    <img alt className="nicdark_position_absolute nicdark_top_5 nicdark_left_0 nicdark_margin_top_5" width={15} src="img/icons/icon-pen.svg" />
+                                    <img alt="" className="nicdark_position_absolute nicdark_top_5 nicdark_left_0 nicdark_margin_top_5" width={15} src="img/icons/icon-pen.svg" />
                                     <input
                                         className="nicdark_padding_left_25 nicdark_border_width_2 nicdark_background_none nicdark_border_top_width_0 nicdark_border_right_width_0 nicdark_border_left_width_0"
                                         type="text"

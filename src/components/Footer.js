@@ -14,15 +14,15 @@ function Footer() {
           <div className="nicdark_container nicdark_clearfix">
             <div className="grid grid_12 nicdark_text_align_center">
               <div className="nicdark_section">
-                <a href="index.html"><img alt width={500} className='' style={{ paddingLeft: '100px' }} src="/logo.png" /></a>
+                <a href="index.html"><img alt="" width={500} className='' style={{ paddingLeft: '100px' }} src="/logo.png" /></a>
               </div>
               <div className="nicdark_section nicdark_height_20" />
               <div className="nicdark_display_inline_block">
-                <a href="index.html"><img alt width={40} className="nicdark_margin_right_10" src="img/icons/icon-facebook-circle.svg" /></a>
-                <a href="index.html"><img alt width={40} className="nicdark_margin_right_10" src="img/icons/icon-twitter-circle.svg" /></a>
-                <a href="index.html"><img alt width={40} className="nicdark_margin_right_10" src="img/icons/icon-pinterest-circle.svg" /></a>
-                <a href="index.html"><img alt width={40} className="nicdark_margin_right_10" src="img/icons/icon-linkedin-circle.svg" /></a>
-                <a href="index.html"><img alt width={40} className="nicdark_margin_right_10" src="img/icons/icon-youtube-circle.svg" /></a>
+                <a href="index.html"><img alt="" width={40} className="nicdark_margin_right_10" src="img/icons/icon-facebook-circle.svg" /></a>
+                <a href="index.html"><img alt="" width={40} className="nicdark_margin_right_10" src="img/icons/icon-twitter-circle.svg" /></a>
+                <a href="index.html"><img alt="" width={40} className="nicdark_margin_right_10" src="img/icons/icon-pinterest-circle.svg" /></a>
+                <a href="index.html"><img alt="" width={40} className="nicdark_margin_right_10" src="img/icons/icon-linkedin-circle.svg" /></a>
+                <a href="index.html"><img alt="" width={40} className="nicdark_margin_right_10" src="img/icons/icon-youtube-circle.svg" /></a>
               </div>
             </div>
           </div>

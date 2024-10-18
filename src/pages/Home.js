@@ -66,21 +66,18 @@ function Home() {
       <div className="nicdark_section">
         <div className="nicdark_container nicdark_clearfix">
           <div className="grid grid_4 ">
-            {/* <img alt width={50} src="img/icons/icon-explore-color.jpg" /> */}
             <div className="nicdark_section nicdark_height_20" />
             <h2><strong>Khám phá du lịch</strong></h2>
             <div className="nicdark_section nicdark_height_20" />
             <p>"Cùng chúng tôi khám phá những điểm đến hấp dẫn trên khắp thế giới. Từ những kỳ quan thiên nhiên hùng vĩ đến các thành phố hiện đại đầy sắc màu, hành trình của bạn sẽ luôn đầy thú vị và mới mẻ."</p>
           </div>
           <div className="grid grid_4 ">
-            {/* <img alt width={50} src="img/icons/icon-friends-color.svg" /> */}
             <div className="nicdark_section nicdark_height_20" />
             <h2><strong>Kết nối bạn bè</strong></h2>
             <div className="nicdark_section nicdark_height_20" />
             <p>"Du lịch không chỉ là khám phá, mà còn là kết nối. Chúng tôi giúp bạn tìm kiếm và kết bạn với những người bạn đồng hành mới, chia sẻ trải nghiệm và tạo nên những kỷ niệm khó quên trên mỗi chuyến đi."</p>
           </div>
           <div className="grid grid_4 ">
-            {/* <img alt width={50} src="img/icons/icon-experience-color.svg" /> */}
             <div className="nicdark_section nicdark_height_20" />
             <h2><strong>Trải nghiệm thực tế</strong></h2>
             <div className="nicdark_section nicdark_height_20" />
