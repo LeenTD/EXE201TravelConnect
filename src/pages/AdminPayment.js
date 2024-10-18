@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import RoutePath from '../config/RoutePath';
 import { Modal, Button } from 'react-bootstrap';
 
 function AdminPayment() {

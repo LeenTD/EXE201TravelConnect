@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Modal, Form } from 'react-bootstrap';
-import { TeacherContext } from '../contexts/TeacherContext'; // Xem xét sử dụng context nếu cần
 import ReactPaginate from 'react-paginate';
 import { addTeacher, editTeacher, deleteTeacher, teachers as initialTeachers } from '../data';
 
