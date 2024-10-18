@@ -32,14 +32,14 @@ function TeacherSingle() {
           <div className="grid grid_12">
             <a href="index.html">Trang chủ</a>
             <img
-              alt
+              alt=""
               className="nicdark_margin_left_10 nicdark_margin_right_10"
               width={10}
               src="img/icons/icon-next-grey.svg"
             />
             <a href="index.html">Hướng dẫn viên</a>
             <img
-              alt
+              alt=""
               className="nicdark_margin_left_10 nicdark_margin_right_10"
               width={10}
               src="img/icons/icon-next-grey.svg"
@@ -62,7 +62,7 @@ function TeacherSingle() {
               <div className="nicdark_display_table nicdark_float_left nicdark_display_none_all_iphone">
                 <div className="nicdark_display_table_cell nicdark_vertical_align_middle">
                   <img
-                    alt
+                    alt=""
                     className="nicdark_margin_right_20 nicdark_border_radius_100_percentage "
                     width={150}
                     src={teacher.cardPhoto}
@@ -81,7 +81,7 @@ function TeacherSingle() {
               {/*START responsive*/}
               <div className="nicdark_section nicdark_display_none nicdark_display_block_all_iphone nicdark_text_align_center">
                 <img
-                  alt
+                  alt=""
                   className=" nicdark_border_radius_100_percentage "
                   width={100}
                   src="img/avatar/avatar-chef-1.jpg"
@@ -89,31 +89,31 @@ function TeacherSingle() {
                 <div className="nicdark_section nicdark_height_10" />
                 <div className="nicdark_section nicdark_text_align_center">
                   <img
-                    alt
+                    alt=""
                     width={15}
                     className="nicdark_margin_right_10"
                     src="img/icons/icon-twitter-white.svg"
                   />
                   <img
-                    alt
+                    alt=""
                     width={15}
                     className="nicdark_margin_right_10"
                     src="img/icons/icon-pinterest-white.svg"
                   />
                   <img
-                    alt
+                    alt=""
                     width={15}
                     className="nicdark_margin_right_10"
                     src="img/icons/icon-linkedin-white.svg"
                   />
                   <img
-                    alt
+                    alt=""
                     width={15}
                     className="nicdark_margin_right_10"
                     src="img/icons/icon-google-white.svg"
                   />
                   <img
-                    alt
+                    alt=""
                     width={15}
                     className
                     src="img/icons/icon-instagram-white.svg"
@@ -234,31 +234,31 @@ function TeacherSingle() {
                           <div className="nicdark_section nicdark_height_20" />
                           <div className="nicdark_section ">
                             <img
-                              alt
+                              alt=""
                               className
                               width={15}
                               src="img/icons/icon-star-full-yellow.svg"
                             />
                             <img
-                              alt
+                              alt=""
                               className
                               width={15}
                               src="img/icons/icon-star-full-yellow.svg"
                             />
                             <img
-                              alt
+                              alt=""
                               className
                               width={15}
                               src="img/icons/icon-star-full-yellow.svg"
                             />
                             <img
-                              alt
+                              alt=""
                               className
                               width={15}
                               src="img/icons/icon-star-full-yellow.svg"
                             />
                             <img
-                              alt
+                              alt=""
                               className="nicdark_margin_right_10"
                               width={15}
                               src="img/icons/icon-star-full-yellow.svg"
@@ -355,7 +355,7 @@ function TeacherSingle() {
                       <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_40_20 nicdark_box_sizing_border_box">
                         <div className="nicdark_display_table nicdark_float_left">
                           <img
-                            alt
+                            alt=""
                             className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage"
                             width={40}
                             src="img/avatar/avatar-chef-1.jpg"
@@ -382,7 +382,7 @@ function TeacherSingle() {
                       <div className="nicdark_section nicdark_border_top_1_solid_grey nicdark_padding_40_20 nicdark_box_sizing_border_box">
                         <div className="nicdark_display_table nicdark_float_left">
                           <img
-                            alt
+                            alt=""
                             className="nicdark_display_none_all_iphone nicdark_margin_right_10 nicdark_display_table_cell nicdark_vertical_align_middle nicdark_border_radius_100_percentage"
                             width={40}
                             src="img/avatar/avatar-chef-2.jpg"
@@ -489,7 +489,7 @@ function TeacherSingle() {
                   <tr className="nicdark_border_bottom_2_solid_grey">
                     <td className="nicdark_padding_20 ">
                       <img
-                        alt
+                        alt=""
                         className
                         width={40}
                         src="img/icons/icon-email-grey.svg"
@@ -504,7 +504,7 @@ function TeacherSingle() {
                   <tr className="nicdark_border_bottom_2_solid_grey">
                     <td className="nicdark_padding_20">
                       <img
-                        alt
+                        alt=""
                         className
                         width={40}
                         src="img/icons/icon-mobile-grey.svg"
