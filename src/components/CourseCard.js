@@ -6,7 +6,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function CourseCard({ course }) {
-    const { id, title, description, totalMoneyMonthTeaching, numberTeachOfWeek, oneHourTeaching, imageUrl, teacher } = course;
+    const { title, description, totalMoneyMonthTeaching, numberTeachOfWeek, oneHourTeaching, teacher } = course;
     const { setCourse } = useContext(TeacherContext);
 
     const shortenDescription = (text, maxLength) => {

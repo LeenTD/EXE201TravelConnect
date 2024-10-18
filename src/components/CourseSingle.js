@@ -31,13 +31,13 @@ function CourseSingle() {
                         <div className="nicdark_section nicdark_padding_15 nicdark_box_sizing_border_box">
                             <h1>COURSE NAME: {course.subjectName}</h1>
                             <div className="nicdark_section nicdark_height_20" />
-                            
-                            
+
+
                             <div className="nicdark_section nicdark_height_20" />
                             <div className="nicdark_section nicdark_position_relative">
                                 <img alt className="nicdark_section" src="img/courses/img3.jpg" />
                                 <div className="nicdark_bg_greydark_alpha_gradient nicdark_position_absolute nicdark_left_0 nicdark_height_100_percentage nicdark_width_100_percentage nicdark_padding_20 nicdark_box_sizing_border_box">
-                                   
+
                                 </div>
                             </div>
                             <div className="nicdark_section nicdark_height_40" />
@@ -57,7 +57,7 @@ function CourseSingle() {
                                         <li className="nicdark_display_inline_block">
                                             <h4><a className="nicdark_outline_0 nicdark_padding_20 nicdark_display_inline_block nicdark_first_font nicdark_color_greydark" href="#tabs-5">Reviews</a></h4>
                                         </li>
-                                      
+
                                     </ul>
                                     <div className="nicdark_section nicdark_height_40" />
                                     <div className="nicdark_section" id="tabs-1">
@@ -65,8 +65,8 @@ function CourseSingle() {
                                         <div className="nicdark_section nicdark_height_20" />
                                         <p>{course.description}</p>
                                         <div className="nicdark_section nicdark_height_40" />
-                                       
-                                     
+
+
                                     </div>
                                     <div className="nicdark_section" id="tabs-2">
                                         {/*START program*/}
@@ -146,7 +146,7 @@ function CourseSingle() {
                                                                 <div className="nicdark_section nicdark_height_5" />
                                                                 <h5 className="nicdark_color_grey">{teacher.major}</h5>
                                                                 <div className="nicdark_section nicdark_height_20" />
-                                                               
+
                                                             </div>
                                                         </div>
                                                         <div className="nicdark_section nicdark_height_20" />
@@ -160,7 +160,7 @@ function CourseSingle() {
 
                                         </div>
                                     </div>
-                            
+
                                     <div className="nicdark_section" id="tabs-5">
                                         <div className="nicdark_section">
                                             <h3><strong>Course Reviews</strong></h3>
@@ -326,7 +326,7 @@ function CourseSingle() {
                                             {/*END comment preview*/}
                                         </div>
                                     </div>
-                              
+
                                 </div>
                                 {/*END tab*/}
                             </div>
@@ -336,7 +336,7 @@ function CourseSingle() {
                     <div className="nicdark_width_33_percentage nicdark_width_100_percentage_ipad_port nicdark_width_100_percentage_all_iphone nicdark_float_left">
                         <div className="nicdark_section nicdark_padding_15 nicdark_box_sizing_border_box">
                             <div className="nicdark_section nicdark_height_60" />
-                           
+
                             <div className="nicdark_section nicdark_height_25" />
                             {/*calendar*/}
                             <div className="nicdark_section nicdark_border_1_solid_grey">
