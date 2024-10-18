@@ -9,9 +9,13 @@ function GridCourse() {
     const [pageSize, setPageSize] = useState(6);
     const [searchKeyword, setSearchKeyword] = useState('');
 
+    // useEffect(() => {
+    //     fetchData();
+    // }, [pageNumber, pageSize, searchKeyword]);
     useEffect(() => {
         fetchData();
-    }, [pageNumber, pageSize, searchKeyword]);
+    }, [fetchData]); // Thêm fetchData vào đây nếu cần thiết
+
 
     const fetchData = () => {
         const filteredCourses = hardcodedCourses.filter(course =>
@@ -31,10 +35,10 @@ function GridCourse() {
         setPageNumber(0); // Reset to first page when search keyword changes
     };
 
-    const addCourse = (newCourse) => {
-        addCourseAPI(newCourse);
-        fetchData();
-    };
+    // const addCourse = (newCourse) => {
+    //     addCourseAPI(newCourse);
+    //     fetchData();
+    // };
 
     const editCourse = (updatedCourse) => {
         editCourseAPI(updatedCourse);

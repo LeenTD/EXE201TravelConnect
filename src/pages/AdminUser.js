@@ -19,7 +19,7 @@ function AdminUser() {
   const [pageNumber, setPageNumber] = useState(0);
   const subjectsPerPage = 4;
 
-  const { token } = useContext(TeacherContext);
+  // const { token } = useContext(TeacherContext);
 
   // Function to fetch subjects from localStorage
   const fetchSubjects = () => {

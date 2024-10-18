@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Modal, Form } from 'react-bootstrap';
-import { TeacherContext } from '../contexts/TeacherContext';
+import { TeacherContext } from '../contexts/TeacherContext'; // Xem xét sử dụng context nếu cần
 import ReactPaginate from 'react-paginate';
 import { addTeacher, editTeacher, deleteTeacher, teachers as initialTeachers } from '../data';
 
@@ -19,7 +19,8 @@ function AdminTeacher() {
   const [pageNumber, setPageNumber] = useState(0);
   const teachersPerPage = 4;
 
-  const { token } = useContext(TeacherContext);
+  // Xóa token nếu không sử dụng
+  // const { token } = useContext(TeacherContext); // Nếu không sử dụng, xóa dòng này
 
   // Function to fetch teachers from localStorage
   const fetchTeachers = () => {
@@ -84,7 +85,7 @@ function AdminTeacher() {
 
   return (
     <div className="container" style={{ height: "600px" }}>
-      <h1>Quảng lý hướng dẫn viên</h1>
+      <h1>Quản lý hướng dẫn viên</h1>
       <Button variant="primary" onClick={() => handleShow('create')}>
         Tạo hướng dẫn viên
       </Button>

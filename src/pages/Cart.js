@@ -24,12 +24,12 @@ function Cart() {
         setTotalPrice(total);
     };
 
-    const handleAddCourse = (course) => {
-        const updatedCourses = [...courses, course];
-        setCourses(updatedCourses);
-        localStorage.setItem('coursesCard', JSON.stringify(updatedCourses));
-        calculateTotalPrice(updatedCourses);
-    };
+    // const handleAddCourse = (course) => {
+    //     const updatedCourses = [...courses, course];
+    //     setCourses(updatedCourses);
+    //     localStorage.setItem('coursesCard', JSON.stringify(updatedCourses));
+    //     calculateTotalPrice(updatedCourses);
+    // };
 
     const handleRemoveCourse = (courseId) => {
         const updatedCourses = courses.filter((course) => course.id !== courseId);

@@ -14,7 +14,6 @@ const RoutePath = {
     TEACHERSINGLE: '/teacher-single',
     ABOUTUS: "/aboutUs",
     SERVICES: "/services",
-    BLOG: "/blog",
     CART: "/cart",
     CHECKOUT: "/checkout",
     QR: "/qr",

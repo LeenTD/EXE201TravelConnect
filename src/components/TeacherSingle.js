@@ -157,7 +157,7 @@ function TeacherSingle() {
               </div>
               <div className="nicdark_display_inline_block nicdark_text_align_center nicdark_margin_right_40">
                 <h1 className="nicdark_color_white nicdark_font_size_40 nicdark_font_size_20_all_iphone nicdark_line_height_20_all_iphone">
-                  <strong>{teacher.gender == "1" ? "Male" : "Female"}</strong>
+                  <strong>{teacher.gender === "1" ? "Male" : "Female"}</strong>
                 </h1>
                 <div className="nicdark_section nicdark_height_5" />
                 <p className="nicdark_color_white nicdark_font_size_10_all_iphone">
