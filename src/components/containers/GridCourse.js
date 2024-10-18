@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import CourseCard from '../CourseCard';
 import ReactPaginate from 'react-paginate';
 import { courses as hardcodedCourses, editCourse as editCourseAPI, deleteCourse as deleteCourseAPI } from '../../data';
@@ -9,22 +9,19 @@ function GridCourse() {
     const [pageSize, setPageSize] = useState(6);
     const [searchKeyword, setSearchKeyword] = useState('');
 
-    // useEffect(() => {
-    //     fetchData();
-    // }, [pageNumber, pageSize, searchKeyword]);
-    useEffect(() => {
-        fetchData();
-    }, [fetchData]); // Thêm fetchData vào đây nếu cần thiết
-
-
-    const fetchData = () => {
+    // Định nghĩa hàm fetchData trước khi sử dụng
+    const fetchData = useCallback(() => {
         const filteredCourses = hardcodedCourses.filter(course =>
             course.title.toLowerCase().includes(searchKeyword.toLowerCase()) ||
             course.description.toLowerCase().includes(searchKeyword.toLowerCase())
         );
         const paginatedCourses = filteredCourses.slice(pageNumber * pageSize, (pageNumber + 1) * pageSize);
         setCourses(paginatedCourses);
-    };
+    }, [searchKeyword, pageNumber, pageSize]); // Thêm dependencies cần thiết
+
+    useEffect(() => {
+        fetchData();
+    }, [fetchData]); // Sử dụng fetchData đã được định nghĩa
 
     const handlePageChange = ({ selected }) => {
         setPageNumber(selected);
@@ -34,11 +31,6 @@ function GridCourse() {
         setSearchKeyword(event.target.value);
         setPageNumber(0); // Reset to first page when search keyword changes
     };
-
-    // const addCourse = (newCourse) => {
-    //     addCourseAPI(newCourse);
-    //     fetchData();
-    // };
 
     const editCourse = (updatedCourse) => {
         editCourseAPI(updatedCourse);
@@ -70,9 +62,7 @@ function GridCourse() {
                                     />
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
                 <div className="nicdark_width_100_percentage">
