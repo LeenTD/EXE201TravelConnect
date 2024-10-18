@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CourseCard from '../CourseCard';
 import ReactPaginate from 'react-paginate';
-import { courses as hardcodedCourses, addCourse as addCourseAPI, editCourse as editCourseAPI, deleteCourse as deleteCourseAPI } from '../../data';
+import { courses as hardcodedCourses, editCourse as editCourseAPI, deleteCourse as deleteCourseAPI } from '../../data';
 
 function GridCourse() {
     const [courses, setCourses] = useState([]);
